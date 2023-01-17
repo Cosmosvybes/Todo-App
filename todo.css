@@ -1,0 +1,70 @@
+body {
+    background-color: lightskyblue;
+}
+
+#todo-box {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    width: auto;
+    padding: 10px 5px;
+    border: 1px dotted white;
+
+}
+
+#todo-box input {
+    padding: 10px;
+    border: 1px dotted lightskyblue;
+    border-radius: 10px;
+    outline: none;
+}
+
+#todo-box button {
+    position: relative;
+    margin-left: 5px;
+    background-color: white;
+    color: lightskyblue;
+    border-radius: 10px;
+    outline: none;
+    border: 1px dotted white;
+}
+
+#task-plate {
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    display: block;
+    border: 1px dotted white;
+}
+
+#task-plate ul {
+    position: relative;
+    margin-left: 100px;
+}
+
+.saveBtn {
+    position: relative;
+    background-color: lightskyblue;
+    color: white;
+    border: 1px solid white;
+
+}
+
+#task-plate ul li {
+
+display: block;
+color: lightblue;
+background-color: wheat;
+border: 1px dotted lightgrey;
+
+
+}
+
+.edit_input {
+    padding: 3px ;
+    position: relative;
+    border-radius: 4px;
+    margin-top: 1px;
+    outline: none;
+    border: 1px solid white;
+}
